@@ -65,6 +65,9 @@ export default {
       );
       return response.data;
     },
+    editar(livro) {
+      Object.assign(this.livro, livro);
+    },
     alerta() {
       alert("ok");
     },
